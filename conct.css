@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(101, 202, 246);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav h2 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.links {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+span {
+    color: rgb(6, 6, 239);
+}
+
+nav h3 {
+    color: black;
+    cursor: pointer;
+    font-weight: 200PX;
+    font-size: 25PX;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nn{
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.kkk{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 60px;
+}
+
+.divv{
+    display: flex;
+    align-items:center;
+    /* gap: 50px; */
+    justify-content: center;
+
+    height: 735px;
+    /* width: 100%; */
+    /* border: 2px solid red; */
+    background-color: rgb(212, 228, 235);
+}
+
+h1 {
+    font-size: 110px;
+    color: rgb(6, 6, 239);
+}
+
+.cons {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+h3{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(6, 6, 239);
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+a:hover {
+    color:blue;
+}
+
+
+
+footer {
+    background-color: rgb(101, 202, 246);
+    width: 96%;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer h2 {
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer h1 {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(146, 96, 30);
+}
+
+p{
+    font-size: 17px;
+}
+
+
+
+.ll {
+    color: black;
+    font-size: 23px;
+}

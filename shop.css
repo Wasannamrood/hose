@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(101, 202, 246);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav h2 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.links {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+span {
+    color: rgb(6, 6, 239);
+}
+
+nav h3 {
+    color: black;
+    cursor: pointer;
+    font-weight: 200PX;
+    font-size: 25PX;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    /* border: 2px solid rgb(105, 105, 105); */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 90%;
+    padding: 10px;
+    background-color: white;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+    
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+    
+}
+
+.aa{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(212, 228, 235);
+    
+}
+
+
+
+
+
+p {
+    font-size: 20px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+footer {
+    background-color: rgb(101, 202, 246);
+    width: 96%;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer h2 {
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer h1 {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(146, 96, 30);
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: black;
+    font-weight: 600;
+}
